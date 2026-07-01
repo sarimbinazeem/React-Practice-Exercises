@@ -1,18 +1,18 @@
-import Navbar from "./components - Task (JSX)/Navbar";
-import About from "./components - Task (JSX)/About";
-import Contact from "./components - Task (JSX)/Contact";
-import Footer from "./components - Task (JSX)/Footer";
-import Hero from "./components - Task (JSX)/Hero";
+import Navbar from "./components/Navbar";
+import About from "./components/About";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
+import Hero from "./components/Hero";
 
 
 function App()
 {
   return <>
-  <Navbar />
-  <About />
-  <Contact />
-  <Footer />
+  <Navbar/>
   <Hero />
+  <Contact />
+  <About />
+  <Footer />
   </>
   ;
 }
