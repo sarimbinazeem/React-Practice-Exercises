@@ -9,7 +9,7 @@ const ScrollBox = () => {
     <div>
       <div onWheel={handleWheel} className='bg-white w-xl h-96 overflow-y-scroll rounded-2xl' >
 
-        <div className='h-[1200px]'></div>
+        <div className='h-300'></div>
 
       </div>
     </div>
